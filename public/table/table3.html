@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minsoo Choi</title>
+<!-- css내용 -->
+<style type="text/css">
+	table, th, td {
+		border: 2px solid blue; /* 테이블 라인 굵기 및 색상 */ 
+		border-collapse: collapse;
+	}
+	
+	th, td {
+		padding: 10px;
+	}
+</style>
+
+</head>
+
+<body>
+	colspan, rowspan
+	<p>colspan</p>
+	<table border="1">
+		<tr>
+			<th width="50px">번호</th>
+			<th>이름</th>
+			<th>아이디</th>			
+		</tr>
+		<tr>
+			<th height="40px">123456789</th>
+			<td colspan="2">다람쥐</td>
+		</tr>
+	</table>
+	
+	<p>rowspan</p>
+	<table border="1">
+		<tr>
+			<th width="50px" rowspan="2">번호</th>
+			<th>이름</th>
+			<th>아이디</th>
+		</tr>
+		<tr>
+			<td>다람쥐</td>
+			<td>asdfasdf</td>
+		</tr>
+	</table>
+
+</body>
+</html>
