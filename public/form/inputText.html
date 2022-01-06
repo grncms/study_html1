@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="uTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minsoo Choi</title>
+</head>
+<body>
+
+	<form action="" method="post" id="" name="form" enctype="multipart/form-data">
+<!-- enctype="multipart/form-data" -> 파일첨부시 사용하는 내용 이속성이없으면 파일 첨부 기능구현불가 디폴트값 권장 -->
+		아이디1 : <input type="text" id="id1" name="id1">
+		<br>아이디2 : <input type="text" id="" name="" size="50">
+		<br>아이디3 : <input type="text" id="" name="" maxlength="20">
+		<br>아이디4 : <input type="text" id="" name="" placeholder="아이디">
+		<br>아이디5 : <input type="text" id="" name="" value="maxkguy">
+		<br>아이디6 : <input type="text" id="" name="" size="50" placeholder="" value="maxkguy">
+		<br>아이디7 : <input type="text" id="" name="" size="50" autofocus="autofocus">
+		
+		
+		<br><input type="button" id="button" name="button" value="제출" oneclick="here();">
+	</form>
+
+	<script type="text/javascript">
+		/* valitation */
+		function here() {
+			alert("id1: " + document.getElementById("id1").value);
+			document.getElementById("form").submit();			
+		}
+	</script>
+
+</body>
+</html>
