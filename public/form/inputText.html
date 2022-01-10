@@ -7,7 +7,7 @@
 </head>
 <body>
 
-	<form action="" method="post" id="" name="form" enctype="multipart/form-data">
+	<form action="" method="get" id="" name="form" enctype="multipart/form-data">
 <!-- enctype="multipart/form-data" -> 파일첨부시 사용하는 내용 이속성이없으면 파일 첨부 기능구현불가 디폴트값 권장 -->
 		아이디1 : <input type="text" id="id1" name="id1">
 		<br>아이디2 : <input type="text" id="" name="" size="50">
@@ -17,8 +17,24 @@
 		<br>아이디6 : <input type="text" id="" name="" size="50" placeholder="" value="maxkguy">
 		<br>아이디7 : <input type="text" id="" name="" size="50" autofocus="autofocus">
 		
+		<br>아이디8 : <input type="text" id="" name="" size="50" autofocus="autofocus"  value="sadasdasd" readonly>
+		<br>아이디9 : <input type="text" id="" name="" size="50" autofocus="autofocus"  value="sadasdasd" disabled>
 		
-		<br><input type="button" id="button" name="button" value="제출" onclick="here();">
+		<select disabled>
+			<option>1
+			<option>2
+			<option selected>3
+		</select>
+		
+		<hr>
+		<p>여기부터 hidden</p>
+			<input type="hiddedn" id="" name="hidden" value="yes">
+		<p>여기까지 hidden</p>
+		
+		
+		
+		
+		<!-- <br><input type="button" id="button" name="button" value="제출" onclick="here();"> -->
 	</form>
 
 	<script type="text/javascript">
